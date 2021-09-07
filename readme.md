@@ -17,7 +17,7 @@
 >1. Any future plans for how the application could be improved
 
 ## Demo on AWS instance
-http://35.176.15.61/
+http://35.176.15.61/ or http://ec2-35-176-15-61.eu-west-2.compute.amazonaws.com/
 
 ## My Approach
 
