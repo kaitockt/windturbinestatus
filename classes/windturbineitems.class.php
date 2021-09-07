@@ -28,7 +28,7 @@ class WindTurbineItems extends DBH {
 
     // mark lightning_strike = 1 for multiple of base
     public function lightningStrike(int $base){
-        $sql = "UPDATE wind_turbine_items SET ligntning_strike = 1 WHERE id % ? = 0;";
+        $sql = "UPDATE wind_turbine_items SET lightning_strike = 1 WHERE id % ? = 0;";
         $stmt = $this->connect()->prepare($sql);
         return $stmt->execute([$base]);
     }

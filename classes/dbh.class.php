@@ -2,7 +2,7 @@
 
 class DBH {
     private $host = "localhost";
-    private $user = "root";
+    private $user = "cyberhawk";
     private $pwd = "abcd1234";
     private $dbName = "cyberhawk";
 
