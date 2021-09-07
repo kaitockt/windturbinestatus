@@ -17,7 +17,7 @@ function listItems(){
 
             const id = value['id']
             const cDmg = value['coating_dmg'] == 1
-            const ls = value['ligntning_strike'] == 1
+            const ls = value['lightning_strike'] == 1
 
             if(!cDmg && !ls){
                 //no damage
